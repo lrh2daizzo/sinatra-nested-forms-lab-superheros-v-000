@@ -1,17 +1,17 @@
 class SuperHero
   attr_reader :name, :power, :bio
 
-  @@all = []
+    @@all = []
 
   def initialize(args)
     @name = args[:name]
     @power = args[:power] 
-    @bio = args[:bio]
-    @@all << self
+    @bio = args[:bio] 
+    @@all << self 
   end
 
   def self.all 
     @@all 
-  end
-
+  end 
+  
 end
